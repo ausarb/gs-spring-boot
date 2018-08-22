@@ -1,4 +1,4 @@
-FROM maven:3.5.4-jdk-11 as build
+FROM maven:3.5.4-jdk-10 as build
 RUN ls -R
 COPY src /usr/src/complete/src
 COPY pom.xml /usr/src/complete
